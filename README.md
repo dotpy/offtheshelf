@@ -70,4 +70,4 @@ Credits
 -------
 Copyright (c) 2012 Daniele Mazzocchio (danix@kernel-panic.it).
 
-Licensed under BSD license (see LICENSE file).
+Licensed under BSD license (see LICENSE.md file).
