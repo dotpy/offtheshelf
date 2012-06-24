@@ -10,7 +10,7 @@ It has no dependencies and runs on both Python 2.x and 3.x.
 
 Installation
 ------------
-You can download the source from [GitHub](https://github.com/dotpy/offtheshelf)
+Download the source code from [GitHub](https://github.com/dotpy/offtheshelf)
 and run the install script:
 
     # python setup.py install
@@ -48,8 +48,8 @@ the `openDB()` function or instantiated directly; e.g.:
 The `Database` is automatically saved and closed upon exit from the closure,
 but can be also explicitely saved and closed; e.g.:
 
-    >>> db = Database("/tmp/test")
-    >>> coll = db.get_collection()
+    >>> db = Database("/tmp/music")
+    >>> coll = db.get_collection("CDCollection")
     >>> coll.update({"Genre": "Classical"})
     >>> db.save()
     >>> db.close()
@@ -70,4 +70,4 @@ Credits
 -------
 Copyright (c) 2012 Daniele Mazzocchio (danix@kernel-panic.it).
 
-Licensed under BSD license.
+Licensed under BSD license (see LICENSE file).
