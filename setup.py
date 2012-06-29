@@ -11,6 +11,7 @@ minimal NoSQL database that uses shelve as a backend. You can run it by typing:
 
 import sys
 from distutils.core import setup
+from offtheshelf.tests import TestCommand
 
 
 __author__ = "Daniele Mazzocchio <danix@kernel-panic.it>"
@@ -29,6 +30,7 @@ setup(name         = "offtheshelf",
       author       = "Daniele Mazzocchio",
       author_email = "danix@kernel-panic.it",
       packages     = ["offtheshelf"],
+      cmdclass     = {"test": TestCommand},
       description  = "Simple NoSQL database with shelve backend",
       classifiers  = ["Development status :: 2 - Pre-Alpha",
                       "Environment :: Console",
