@@ -6,6 +6,10 @@ This is the installation script of the offtheshelf module, a very simple and
 minimal NoSQL database that uses shelve as a backend. You can run it by typing:
 
   python setup.py install
+
+You can also run the test suite by running:
+
+  python setup.py test
 """
 
 

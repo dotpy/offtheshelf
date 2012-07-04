@@ -3,7 +3,7 @@ offtheshelf
 
 `offtheshelf` is a pure-Python module providing a very simple and minimalist
 embedded NoSQL database. It uses the `shelve` module as backend for persistent
-storage and file-locking as a simple mutual exclusion mechanism.
+storage and relies on file-locking as a simple mutual exclusion mechanism.
 
 It has no dependencies and runs on both Python 2.x and 3.x.
 

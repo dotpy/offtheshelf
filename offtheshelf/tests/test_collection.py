@@ -1,4 +1,4 @@
-"""Test suite for the PacketFilter class"""
+"""Test suite for the Collection class"""
 
 import unittest
 import tempfile
