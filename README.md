@@ -20,7 +20,7 @@ Basic usage
 -----------
 `offtheshelf` defines two classes: `Database` and `Collection`.
 
-A `Database` class is basically a container for one or more `Collection`s. A
+A `Database` object is basically a container for one or more `Collection`s. A
 `Collection` contains a list of documents (i.e. dictionaries), holding the
 actual data, and provides methods for inserting, updating, searching and
 removing items from documents.
