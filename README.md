@@ -10,7 +10,7 @@ It has no dependencies and runs on both Python 2.x and 3.x.
 
 Installation
 ------------
-Download the source code from [GitHub](https://github.com/dotpy/offtheshelf)
+Download the package from [GitHub](https://github.com/dotpy/offtheshelf/downloads)
 and run the install script:
 
     # python setup.py install
